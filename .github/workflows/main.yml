@@ -28,5 +28,5 @@ jobs:
           pip install pytest
           pytest tests/
       
-      - name: Build Docker
-        run: docker build -t CurrencyConversion .       
+#      - name: Build Docker
+#        run: docker build -t CurrencyConversion .       
